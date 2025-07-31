@@ -35,7 +35,7 @@ strong {
   width: 200px;
   height: auto;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 table {
@@ -44,7 +44,8 @@ table {
   margin-top: 20px;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #c9a3fa;
   padding: 12px;
   text-align: center;
@@ -61,4 +62,12 @@ tr:nth-child(even) {
 
 tr:hover {
   background-color: #8bcceb;
+}
+
+div {
+  border: 8px solid #000;
+  padding: 20px 80px;
+  background: #a389e4;
+  width: 100px;
+  border-radius: 45px;
 }
